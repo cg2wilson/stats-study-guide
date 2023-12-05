@@ -202,7 +202,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="week1.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="week1.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon">&gt;</span></span></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="week1.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="week1.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="types-of-variables.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(      \newcommand{\ds}{\displaystyle}
 \newcommand{\lrpar}[1]{\left(#1\right)}
@@ -222,7 +222,10 @@ window.MathJax = {
 <li><div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li>
 <div class="toc-item"><a href="week1.html" class="internal"><span class="codenumber">1</span> <span class="title">Week 1: Descriptive Statistics</span></a></div>
-<ul class="structural"><li class="active"><div class="toc-item"><a href="statistics-terminology.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Statistics Terminology</span></a></div></li></ul>
+<ul class="structural">
+<li class="active"><div class="toc-item"><a href="statistics-terminology.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Statistics Terminology</span></a></div></li>
+<li><div class="toc-item"><a href="types-of-variables.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Types of Variables</span></a></div></li>
+</ul>
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="statistics-terminology"><h2 class="heading hide-type">
@@ -239,7 +242,7 @@ window.MathJax = {
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Sample.</span>
 </h3>  <div class="para" id="p-6">A <dfn class="terminology">sample</dfn> is a subset of the population.  In statistics, it is often not feasible or desirable to gather information about the whole population so information is gathered on part of the population being studied.  Inferential Statistics is when the information gathered about the sample is used to say something about the entire population.</div></article><article class="definition definition-like" id="def-variable"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Variable.</span>
-</h3>  <div class="para" id="p-7">A <dfn class="terminology">variable</dfn> is a quantity or quality of the population that varies among individuals. A variable can be either quantitative or qualitative (categorical). A quantitative variable can be measured and can often be used in the calculation of an average.  Quantitative variables have numerical values. Categorical variables are often a verbal description of the population but they can sometimes be numerical if they are used to categorize individuals in the population.  Examples of this are zip codes, phone numbers, and instances when numbers are substituted for a particular quality such as letting 0 represent Males and 1 Females.</div></article><article class="definition definition-like" id="def-parameter"><h3 class="heading">
+</h3>  <div class="para" id="p-7">A <dfn class="terminology">variable</dfn> is a quantity or quality of the population that varies among individuals. A variable can be either quantitative or qualitative (categorical). A <dfn class="terminology">quantitative variable</dfn> can be measured and can often be used in the calculation of an average.  Quantitative variables have numerical values. <dfn class="terminology">Categorical variables</dfn> are often a verbal description of the population but they can sometimes be numerical if they are used to categorize individuals in the population.  Examples of this are zip codes, phone numbers, and instances when numbers are substituted for a particular quality such as letting 0 represent Males and 1 Females.</div></article><article class="definition definition-like" id="def-parameter"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Parameter.</span>
 </h3>  <div class="para" id="p-8">A <dfn class="terminology">parameter</dfn> is a value found by looking at the entire population.   Information you see about small populations is often parameters because it is not too hard to gather information about each individual in the population.</div></article><article class="example example-like" id="example-1"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">(Parameter).</span>
@@ -247,9 +250,21 @@ window.MathJax = {
 <div class="para" id="p-9">10% of US Senators voted for a particular measure. There are only 100 US Senators, you can count how every single one of them voted.</div></article><article class="example example-like" id="example-2"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">(Parameter).</span>
 </h3>
-<div class="para" id="p-10">40% of 1,211 students at a particular elementary school got below a 3 on a standardized test. You know this because you have each and every student’s test score.</div></article></section></div>
+<div class="para" id="p-10">40% of 1,211 students at a particular elementary school got below a 3 on a standardized test. You know this because you have each and every student’s test score.</div></article><article class="definition definition-like" id="def-statistic"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Statistic.</span>
+</h3>  <div class="para" id="p-11">A <dfn class="terminology">statistic</dfn> is a value found from looking at a sample of a population.</div></article><div class="para" id="p-12">In actuality, many times you are not told that the value comes from a sample but you may come to this conclusion if it seems very unlikely that each individual in the population got measured/polled.  When you see information about a large population it is very possible the data that you see is a statistic and not a parameter.</div>
+<article class="example example-like" id="example-3"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span><span class="space"> </span><span class="title">(Statistic).</span>
+</h3>
+<div class="para" id="p-13">88% of Oklahomans would support a federal law requiring background checks for all gun purchases, It’s not possible to actually ask  millions of people whether they agree. Researchers instead take a poll using a sample of Oklahomans.</div></article><article class="example example-like" id="example-4"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span><span class="space"> </span><span class="title">(Statistic).</span>
+</h3>
+<div class="para" id="p-14">40% of Oklahoma City residents report that they have been to at least one Thunder game. It’s very doubtful that anyone polled each resident in Oklahoma City. They took a sample, so they have a statistic.</div></article><article class="example example-like" id="example-5"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span><span class="space"> </span><span class="title">(Statistic).</span>
+</h3>
+<div class="para" id="p-15">30% of dog owners poop scoop after their dog. It’s impossible to survey all dog owners—no one keeps an accurate track of exactly how many people own dogs. This data had to be from a sample, so it’s a statistic.</div></article></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="week1.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon">&gt;</span></span>
+<a class="previous-button button" href="week1.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="types-of-variables.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
