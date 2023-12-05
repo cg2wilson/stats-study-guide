@@ -1,0 +1,4 @@
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/stats-study-guide/source/main.ptx:19:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/stats-study-guide/source/main.ptx:18:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/stats-study-guide/source/main.ptx:15:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/stats-study-guide/source/main.ptx:8:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext

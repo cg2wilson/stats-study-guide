@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="week1" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Week 1: Descriptive Statistics</title>
+
+    <section xml:id="statistics-terminology" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Statistics Terminology</title>
+
+        <remark>
+            <p>
+                This section corresponds to Section 1.2 in Dietz
+            </p>
+        </remark>
+
+        <definition xml:id="def-population">
+            <title>Population</title> 
+            <idx><h>Population</h></idx>           
+            <statement>
+                <p>
+                    A <term>population</term> is a collection of individuals (not necessarily people) that share one or more common characteristics.  In statistics this is the entire group of individuals for which information is being gathered or studied.  Information that describes the population is called descriptive statistics.
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-individual">
+            <title>Individual</title>
+            <idx><h>Individual</h></idx>
+            
+            <statement>
+                <p>
+                    An <term>individual</term> is a member of a particular population
+                </p>
+            </statement>
+        </definition>
+    
+        <definition xml:id="def-sample">
+            <title>Sample</title>
+            <idx><h>Sample</h></idx>
+            
+            <statement>
+                <p>
+                    A <term>sample</term> is a subset of the population.  In statistics, it is often not feasible or desirable to gather information about the whole population so information is gathered on part of the population being studied.  Inferential Statistics is when the information gathered about the sample is used to say something about the entire population.
+                </p>
+            </statement>
+        </definition>
+        
+        <definition xml:id="def-variable">
+            <title>Variable</title>
+            <idx><h>Variable</h></idx>
+            <idx><h>Variable (Quantitative)</h></idx>
+            <idx><h>Variable (Qualitative)</h></idx>
+            <idx><h>Variable (Categorical)</h></idx>
+            
+            <statement>
+                <p>
+                    A <term>variable</term> is a quantity or quality of the population that varies among individuals. A variable can be either quantitative or qualitative (categorical). A <term>quantitative variable</term> can be measured and can often be used in the calculation of an average.  Quantitative variables have numerical values. <term>Categorical variables</term> are often a verbal description of the population but they can sometimes be numerical if they are used to categorize individuals in the population.  Examples of this are zip codes, phone numbers, and instances when numbers are substituted for a particular quality such as letting 0 represent Males and 1 Females.
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-parameter">
+            <title>Parameter</title>
+            <idx><h>Parameter</h></idx>
+            
+            <statement>
+                <p>
+                    A <term>parameter</term> is a value found by looking at the entire population.   Information you see about small populations is often parameters because it is not too hard to gather information about each individual in the population.
+                </p>
+            </statement>
+        </definition>
+
+        <example>
+            <title>(Parameter)</title>
+            
+            
+            <statement>
+                <p>
+                    10% of US Senators voted for a particular measure. There are only 100 US Senators, you can count how every single one of them voted.
+                </p>
+            </statement>
+        </example>
+
+        <example>
+            <title>(Parameter)</title>
+            
+            
+            <statement>
+                <p>
+                    40% of 1,211 students at a particular elementary school got below a 3 on a standardized test. You know this because you have each and every student's test score.
+                </p>
+            </statement>
+        </example>
+
+        <definition xml:id="def-statistic">
+            <title>Statistic</title>
+            <idx><h>Statistic</h></idx>
+            
+            <statement>
+                <p>
+                    A <term>statistic</term> is a value found from looking at a sample of a population.
+                </p>
+            </statement>
+        </definition>
+
+        <p>
+            In actuality, many times you are not told that the value comes from a sample but you may come to this conclusion if it seems very unlikely that each individual in the population got measured/polled.  When you see information about a large population it is very possible the data that you see is a statistic and not a parameter.  
+            
+        </p>
+
+        <example>
+            <title>(Statistic)</title>
+            <statement>
+                <p>
+                    88% of Oklahomans would support a federal law requiring background checks for all gun purchases, It’s not possible to actually ask  millions of people whether they agree. Researchers instead take a poll using a sample of Oklahomans.
+                </p>
+            </statement>
+        </example>
+
+        <example>
+            <title>(Statistic)</title>
+            <statement>
+                <p>
+                    40% of Oklahoma City residents report that they have been to at least one Thunder game. It’s very doubtful that anyone polled each resident in Oklahoma City. They took a sample, so they have a statistic.
+                </p>
+            </statement>
+        </example>
+
+        <example>
+            <title>(Statistic)</title>
+            <statement>
+                <p>
+                    30% of dog owners poop scoop after their dog. It’s impossible to survey all dog owners—no one keeps an accurate track of exactly how many people own dogs. This data had to be from a sample, so it’s a statistic.
+                </p>
+            </statement>
+        </example>
+    </section>
+
+    <section xml:id="types-of-variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Types of Variables</title>
+        
+        
+        
+    </section>
+</chapter>
